@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 70px 100px 1000px 40px;
+    grid-template-areas: 
+    "header header header header header header header header header header header header"
+    "nav  nav nav nav nav nav nav nav nav nav nav nav "
+    "main main main main main main main main main main main main "
+    "footer footer footer footer footer footer footer footer footer footer footer footer "
+}
+header{
+        background-color: lightgreen;
+    width: 100%;
+    grid-area: header;
+    
+}
+nav{
+    background-color: aquamarine;
+    width: 100%;
+   grid-area: nav;
+}
+main{
+    background-color: lightslategray;
+    width: 100%;
+    grid-area: main;
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    
+}
+
+footer{
+    background-color: lightpink;
+    width: 100%;
+  grid-area: footer;
+}
+
+#misHobbies{
+
+}
